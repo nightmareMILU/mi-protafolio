@@ -1,0 +1,27 @@
+body { margin: 0; font-family: Arial, Helvetica, sans-serif;
+background-color: #f9f9f9; color: #333; }
+
+/* Todas las imágenes ocupan el ancho completo */ section img { width:
+100%; height: auto; display: block; }
+
+/* Caja del texto debajo de cada imagen */ .texto { padding: 20px;
+max-width: 900px; margin: auto; }
+
+h2 { font-size: 28px; margin-bottom: 10px; }
+
+a { color: #6a4af4; text-decoration: none; font-weight: bold; }
+
+a:hover { text-decoration: underline; }
+
+/* Contenedor para los iconos encima de la imagen */ .contacto-container
+{ position: relative; width: 100%; max-width: 100%; }
+
+/* Todas las zonas clickeables */ .icon { position: absolute; width:
+60px; height: 60px; cursor: pointer; }
+
+/* Coordenadas calculadas según las imagenes */ .insta { left: 29%;
+bottom: 17%; }
+
+.wsp { left: 38%; bottom: 17%; }
+
+.mail { left: 47%; bottom: 17%; }
